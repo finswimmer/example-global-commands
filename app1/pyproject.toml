@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "app1"
+version = "0.1.0"
+description = ""
+authors = ["finswimmer <finswimmer77@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "<1.0"
+
+[tool.poetry.scripts]
+app1 = "app1.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
